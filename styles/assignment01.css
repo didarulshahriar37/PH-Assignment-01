@@ -23,7 +23,7 @@ header{
     height: 100vh;
 }
 main{
-    background-color: #4d47ff22;
+    background-color: #4d47ff18;
 }
 
 /* nav styles */
@@ -154,6 +154,7 @@ p{
 
 /* Users-say section styles */
 .users-say{
+    margin-top: 137px;
     text-align: center;
 }
 .users-say-title{
@@ -218,6 +219,7 @@ p{
 }
 .card-container{
     background-color: white;
+    stroke: #F2EDED;
     border-radius: 14px;
     padding: 24px;
 }
@@ -251,4 +253,45 @@ p{
     height: 364.77px;
     border-radius: 48px;
     margin-top: 20px;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-title{
+    padding: 200px 150px;
+    font-weight: bold;
+    font-size: 70px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490px;
+    padding: 71px 150px;
+}
+.contact-form form label{
+    display: block;
+    width: 497px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+.contact-form form input, textarea{
+    border: none;
+    border-radius: 10px;
+}
+.contact-form form input{
+    width: 497px;
+    height: 70px;
+}
+.contact-form form textarea{
+    width: 497px;
+    height: 135px;
+}
+.contact-form form button{
+    width: 497px;
 }
