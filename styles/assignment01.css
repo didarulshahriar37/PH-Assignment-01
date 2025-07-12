@@ -22,6 +22,9 @@ header{
     background-position: center;
     height: 100vh;
 }
+main{
+    background-color: #4d47ff22;
+}
 
 /* nav styles */
 nav{
@@ -99,7 +102,7 @@ nav button{
     width: 517px;
     height: 60px;
     font-size: 24px;
-    color: #25243285;
+    color: #2524328c;
 }
 main section img{
     border-radius: 48px;
@@ -120,7 +123,7 @@ main section img{
     width: 1140px;
     height: auto;
     padding: 40px 0;
-    background-color: #4d47ff15;
+    background-color: #4d47ff32;
     border-radius: 24px;
     text-align: center;
 }
@@ -147,4 +150,74 @@ p{
     font-weight: Bold;
     margin-bottom: 0px;
     color: #252432;
+}
+
+/* Users-say section styles */
+.users-say{
+    text-align: center;
+}
+.users-say-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.star-container{
+    display: flex;
+}
+.stars{
+    width: 20px;
+    height: 20px;
+}
+.details{
+    margin-top: 30px;
+}
+.title{
+    width: 221px;
+    height: 29px;
+    font-size: 22px;
+    text-align: left;
+}
+.description{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    width: 318.67px;
+    height: 44px;
+    margin-bottom: 94px;
+    text-align: left;
+}
+.names-dates{
+    margin-top: -70px;
+}
+.user{
+    display: flex;
+}
+.user img{
+    height: 40px;
+    width: 40px;
+}
+.name-date{
+    margin-top: 30px;
+    margin-left: 12px;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #757575;
+}
+.date{
+    margin-top: -15px;
+    font-size: 16px;
+    text-align: left;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card-container{
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
 }
