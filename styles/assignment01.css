@@ -221,3 +221,34 @@ p{
     border-radius: 14px;
     padding: 24px;
 }
+
+/* Ready section styles */
+.ready{
+    display: flex;
+    justify-content: center;
+    margin-top: 137px;
+}
+.ready-container{
+    text-align: center;
+    width: 1140px;
+    height: auto;
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px;
+}
+.ready-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.ready-element{
+    color: #0000007b;
+}
+.ready-button button{
+    width: 195px;
+}
+.ready-container img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
