@@ -295,3 +295,32 @@ p{
 .contact-form form button{
     width: 497px;
 }
+
+/* footer section styles */
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-container{
+    width: 531px;
+    height: auto;
+    padding: 103px 0;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.footer-description{
+    color: #8987A1;
+}
+.footer-list ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.footer-list .footer-links{
+    text-decoration: none;
+    color: #8987A1;
+}
